@@ -75,7 +75,7 @@ export const SERVICES: readonly Service[] = [
     icon: "flame",
     highlight: false,
     photo: "chauffage",
-    actif: false,
+    actif: true,
   },
   {
     slug: "panneaux-solaires",

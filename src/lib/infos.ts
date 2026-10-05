@@ -89,7 +89,7 @@ export type Emergency = { enabled: boolean; situations: readonly string[] };
  * Seulement si l'artisan le confirme ; aucun délai, horaire ni prix n'est jamais affiché.
  */
 export const EMERGENCY: Emergency = {
-  enabled: false,
+  enabled: true,
   situations: [
     "Panne de courant totale ou partielle",
     "Disjoncteur qui saute sans arrêt",
@@ -113,11 +113,11 @@ export type Legal = {
 };
 
 /** Mentions légales. Champ vide = « Communiqué à la mise en ligne » (démo). */
-// À LA LIVRAISON : informations légales de l'entreprise (raison sociale, forme juridique, SIRET, directeur de la publication)
+// À LA LIVRAISON : compléter les informations légales manquantes (directeur de la publication)
 export const LEGAL: Legal = {
-  companyName: "",
-  legalForm: "",
-  siret: "",
+  companyName: "SAS COUPEY",
+  legalForm: "SAS au capital de 5 000 €",
+  siret: "838 223 808 00018",
   publisher: "",
   // À LA LIVRAISON : vérifier l'hébergeur (autre si domaine ou hébergement différent)
   hostName: "GitHub, Inc. (GitHub Pages)",

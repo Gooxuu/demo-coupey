@@ -21,7 +21,7 @@ const CONTENT = {
   points: [
     "Alarme anti-intrusion avec détecteurs",
     "Caméras de vidéosurveillance intérieures et extérieures",
-    "Interphone et visiophone",
+    "Automatisme et motorisation de portail",
     "Prise en main et réglages avec vous",
   ],
   before: STOCK_PHOTOS.securiteAvant,

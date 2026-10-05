@@ -15,7 +15,7 @@ import { STOCK_PHOTOS } from "@/lib/stockPhotos";
 const HERO = {
   eyebrow: "Électricien à Honfleur · Côte Fleurie et Pays d’Auge",
   title: "Votre électricien, de l’installation au dépannage",
-  text: "Installation, rénovation, dépannage, bornes de recharge et alarme : une entreprise locale, joignable directement.",
+  text: "Installation, rénovation, dépannage 7j/7, chauffage électrique, bornes de recharge et automatisme de portail : une entreprise locale pour particuliers et professionnels.",
 };
 
 const STEPS: readonly Step[] = [
