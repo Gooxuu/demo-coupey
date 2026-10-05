@@ -21,8 +21,7 @@ export const PHONE_DISPLAY = "06 14 05 96 55";
 export const PHONE_E164 = "+33614059655";
 export const PHONE_TEL = telHref(PHONE_E164);
 
-// À REMPLACER : e-mail
-export const EMAIL = "contact@example.com";
+export const EMAIL = "electricite@sascoupey.fr";
 export const EMAIL_MAILTO = `mailto:${EMAIL}`;
 
 /** false si le numéro n'est pas sur WhatsApp : le bouton disparaît partout. */
