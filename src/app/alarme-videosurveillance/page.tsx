@@ -14,14 +14,14 @@ const service = getService("alarme-videosurveillance");
 export const metadata: Metadata = service.actif ? { title: service.title, description: service.teaser } : {};
 
 const CONTENT = {
-  title: "Protégez votre maison et vos proches",
+  title: "Alarme et portail motorisé, bien installés",
   eyebrow: "Votre sécurité",
   heading: "Des équipements de sécurité bien installés",
   intro: "Nous installons des systèmes adaptés à votre logement et vous montrons comment les utiliser.",
   points: [
-    "Alarme anti-intrusion avec détecteurs",
-    "Caméras de vidéosurveillance intérieures et extérieures",
-    "Automatisme et motorisation de portail",
+    "Installation d’alarmes anti-intrusion avec détecteurs",
+    "Installation d’automatismes de portail",
+    "Vente et pose du matériel électrique",
     "Prise en main et réglages avec vous",
   ],
   before: STOCK_PHOTOS.securiteAvant,

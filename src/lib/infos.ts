@@ -118,7 +118,7 @@ export const LEGAL: Legal = {
   companyName: "SAS COUPEY",
   legalForm: "SAS au capital de 5 000 €",
   siret: "838 223 808 00018",
-  publisher: "",
+  publisher: "Franck Huet",
   // À LA LIVRAISON : vérifier l'hébergeur (autre si domaine ou hébergement différent)
   hostName: "GitHub, Inc. (GitHub Pages)",
   hostAddress: "88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis",

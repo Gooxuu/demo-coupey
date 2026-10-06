@@ -14,15 +14,15 @@ const service = getService("chauffage-electrique");
 export const metadata: Metadata = service.actif ? { title: service.title, description: service.teaser } : {};
 
 const CONTENT = {
-  title: "Un chauffage électrique confortable et maîtrisé",
+  title: "Un chauffage électrique bien installé",
   eyebrow: "Nos solutions",
-  heading: "Chauffage, eau chaude et ventilation",
+  heading: "Pose de chauffage électrique",
   intro: "Nous installons et remplaçons vos équipements pour gagner en confort au quotidien.",
   points: [
-    "Radiateurs électriques à inertie et programmables",
-    "Plancher chauffant électrique",
-    "Chauffe-eau et ballon d’eau chaude thermodynamique",
-    "Ventilation mécanique contrôlée (VMC)",
+    "Choix de l’équipement adapté à votre logement",
+    "Pose et raccordement des radiateurs électriques",
+    "Protections et circuits dédiés sur votre tableau",
+    "Réglage et prise en main avec vous",
   ],
   before: STOCK_PHOTOS.chauffageAvant,
   after: STOCK_PHOTOS.chauffageApres,
